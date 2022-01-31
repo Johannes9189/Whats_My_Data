@@ -1,12 +1,13 @@
 //Modules
-const http = require("http")
-const https = require('https')
-const request = require('request');
-const express = require('express')();
-const path = require('path');
-const cheerio = require("cheerio");
-var fs = require('fs');
-const { Console } = require("console");
+const RequirePath = ""
+const http = require(RequirePath + "http")
+const https = require(RequirePath + 'https')
+const request = require(RequirePath + 'request');
+const express = require(RequirePath + 'express')();
+const path = require(RequirePath + 'path');
+const cheerio = require(RequirePath + "cheerio");
+var fs = require(RequirePath + 'fs'); 
+const { Console } = require(RequirePath + "console");
 const PageHtmlPath = path.join(__dirname, '/index.html')
 //Vals
 const options = {
