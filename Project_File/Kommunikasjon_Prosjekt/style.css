@@ -1,0 +1,16 @@
+.Top_Bar{
+    display: flex;
+    justify-content: center;
+    background-color: cadetblue
+}
+.Main_Content{
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    background-color: rgba(95, 158, 160, 0.63);
+}
+.Location_Map{
+    height: 500px;
+    width: 500px;
+    opacity: 1;
+}
